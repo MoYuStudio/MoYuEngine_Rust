@@ -1,3 +1,4 @@
+
 [package]
 name = "MoYuEngine"
 version = "0.1.0"
@@ -7,4 +8,4 @@ edition = "2021"
 
 [dependencies]
 raylib = "3.7.0"
-
+noise = "0.8"
