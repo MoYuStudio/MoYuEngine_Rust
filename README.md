@@ -1,4 +1,4 @@
-# MoYuEngine_Rust
+# MoYuEngine Rust
 
 ![Version](https://img.shields.io/badge/Version-0.1.0-blue.svg?cacheSeconds=2592000)
 ![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)
@@ -21,34 +21,34 @@ MoYuEngine_Rust是一个由Rust编程语言编写的游戏引擎。本引擎主�
 
 ```rust
     [dependencies]
-    moyu_engine = "1.0.0"
+    moyu_engine = "0.1.0"
 ```
 
 然后在你的项目中，添加如下的import声明： 
 
-生锈 
+
 
 extern crate moyu_engine;
 
-##使用说明 
+## 使用说明 
 
 使用MoYuEngine_Rust创建游 
 
-生锈 
 
-use moyu_engine::{Engine, Game};
+```
+    use moyu_engine::{Engine, Game};
 
-struct MyGame;
+    struct MyGame;
 
-impl Game for MyGame {
-    // 编写您的游戏逻辑
-}
+    impl Game for MyGame {
+        // 编写您的游戏逻辑
+    }
 
-fn main() {
-    let mut engine = Engine::new();
-    engine.run(MyGame);
-}
-
+    fn main() {
+        let mut engine = Engine::new();
+        engine.run(MyGame);
+    }
+```
 ## 贡献 
 
 我们欢迎一切形式的贡献。您可以通过提交问题、提出新功能的建议、改进代码或者改进文档来贡献我们的项目。 
@@ -57,7 +57,7 @@ fn main() {
 本项目采用 Apache 2.0 许可证，详细信息请参见 LICENSE 。 
 联系方式 
 
-如有任何疑问或需要帮助，欢迎联系我们:  cprewilsonvinson@gmail.com 
+如有任何疑问或需要帮助，欢迎联系我们: cprewilsonvinson@gmail.com 
 
 ## 致谢 
 
