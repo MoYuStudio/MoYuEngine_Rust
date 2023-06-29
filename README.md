@@ -1,7 +1,7 @@
 # MoYuEngine_Rust
 
 ![Version](https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000)
-![License: Apache 2.0](https://img.shields.io/badge/License-blue.svg)
+![License: Apache 2.0](https://img.shields.io/badge/License-Apache2.0-blue.svg)
 
 MoYuEngine_Rust是一个由Rust编程语言编写的游戏引擎。本引擎主要用于创建2D和3D游戏，而且重点在于高效、快速、安全和易于使用。由MoYuStudio研发。
 
